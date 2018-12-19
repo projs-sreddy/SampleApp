@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { IndexComponentComponent } from './index-component/index-component.component';
 import { SampleComponent } from './sample/sample.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponentComponent,
     SampleComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule
